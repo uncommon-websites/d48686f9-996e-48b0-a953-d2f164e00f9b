@@ -21,7 +21,7 @@
 			<img
 				class="h-full w-full object-cover"
 				src={imageSrc}
-				alt="Diverse group of people collaborating"
+				alt="Software engineer working on complex development challenges"
 			/>
 		</div>
 	</div>

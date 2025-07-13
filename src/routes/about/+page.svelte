@@ -11,94 +11,76 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Built by real engineers, not consultants",
+			description: "We don't write slide decks—we write production-grade code. With over 17 years of engineering leadership, hands-on development, and technical writing, we've faced the challenges you're up against—and solved them in production."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Turn repeated questions into reusable knowledge",
+			description: "Capture the \"why\" behind decisions, not just the \"what.\" We transform senior engineers' context into documented guidance that helps junior developers level up—without asking twice."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "The AI-enhanced workflow developers actually want",
+			description: "We don't reinvent your workflow—we improve it. Our tools surface relevant architectural context, practical documentation, and high-signal examples exactly when they're needed—in development and during reviews."
 		}
 	];
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="From code to clarity"
+	subtitle="Real insights from real engineering"
+	imageSrc="/generated/image-a-professional-software-engineer-sitting.webp"
 />
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"After years leading engineering teams across multiple tech stacks and company stages, we saw the same patterns repeat: incomplete context, junior engineers re-asking architecture questions, and bottlenecks during code reviews. Technical knowledge lived in silos, slowing down entire teams and frustrating experienced engineers who found themselves answering the same questions over and over. We knew there had to be a better way to scale engineering expertise.",
+		"Borozdin Tech transforms this challenge into opportunity by turning complex software engineering problems into actionable insights. Drawing from 17+ years of hands-on experience and 70+ technical articles, we've developed AI-enhanced workflows that help teams capture and share architectural decisions effectively. Starting with technical content creators, we're building systems that make engineering knowledge accessible, searchable, and immediately useful.",
+		"Today, we're reaching 50,000+ developers monthly through dev.to articles and conference presentations, helping engineering managers reduce code review bottlenecks and scale their teams' technical understanding. Our unique combination of deep technical implementation experience and product-focused engineering leadership means we don't just understand the code—we understand how to build sustainable, scalable development practices that drive real business outcomes."
 	]}
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
+	title="Engineering leadership."
+	subtitle="Built by developers, for developers."
 	stakeholders={[
 		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+			name: "Mike Borozdin",
+			position: "Founder & Software Engineer",
+			bio: "17+ years of engineering leadership across multiple countries and tech stacks. Author of 70+ technical articles and active conference speaker.",
+			image: "/generated/image-a-professional-software-engineer-in-a-mo.webp"
 		}
 	]}
 />
 
 <StakeholderGrid
-	generating
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
+	stakeholderType="partner"
+	title="Trusted by developers."
+	subtitle="Featured across top development platforms"
 	stakeholders={[
 		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
+			name: "Dev.to Community",
+			image: "https://logo.clearbit.com/dev.to"
 		},
 		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
+			name: "Conference Speaker",
+			image: "/generated/image-a-group-of-diverse-professionals-engaged.webp"
 		},
 		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
+			name: "Open Source",
+			image: "/generated/image-a-group-of-individuals-collaborating-on-.webp"
 		}
 	]}
 />
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Stop repeating the same code review explanations"
+	subtitle="Transform knowledge silos into shared understanding"
+	description="Join the engineering managers already reducing review bottlenecks and accelerating their teams with our AI-enhanced workflows. Turn your senior engineers' expertise into documentation that scales."
 />
