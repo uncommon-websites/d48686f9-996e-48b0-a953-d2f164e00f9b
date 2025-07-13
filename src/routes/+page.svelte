@@ -6,25 +6,34 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CenteredTextOnlyHero
+	title="Transform complex software engineering challenges into actionable insights"
+	subtitle="Scale your engineering team's knowledge and eliminate code review bottlenecks with practical solutions from 17+ years of hands-on experience across diverse technology stacks."
+	imageSrc="/generated/image-a-serene-office-environment-with-a-group.webp"
+	callsToAction={[
+		{ href: "/about", label: "Learn about our approach" },
+		{ href: "/contact", label: "Start a conversation" }
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by engineering teams at"
+	logoUrls={[
+		'https://cdn.brandfetch.io/stripe.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/figma.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/shopify.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/notion.so/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
-	generating
 	title="What we do"
 	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
 			name: "Jane Smith",
@@ -54,7 +63,6 @@
 />
 
 <Features
-	generating
 	title="Features"
 	subtitle="Some features"
 	features={[
@@ -75,5 +83,5 @@
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction />
